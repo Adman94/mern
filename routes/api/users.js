@@ -33,7 +33,7 @@ router.post(
 
     try {
       // See if user exists
-      let user = await User.findOne({ email });
+      let user = await User.findOne({ email }); // select * from User where email= adman00794@gmail.com
 
       if (user) {
         return res
