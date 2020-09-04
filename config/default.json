@@ -1,3 +1,4 @@
 {
-  "mongoURI": "mongodb+srv://adman94:mernStack_2019@mernproject-a3tfg.mongodb.net/test?retryWrites=true&w=majority"
+  "mongoURI": "mongodb+srv://adman94:mernStack_2019@mernproject-a3tfg.mongodb.net/test?retryWrites=true&w=majority",
+  "jwtSecret": "mysecrettoken"
 }
